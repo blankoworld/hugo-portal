@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ .Site.Title }}</title>
+<!--[if lt IE 9]>
+  <script src="html5.js" type="text/javascript"></script>
+<![endif]-->
+  <link rel="stylesheet" href="css/without_menu.css" type="text/css" media="all" title="defaut.css" />
+  <link rel="stylesheet" href="css/{{ .Site.Params.style }}" type="text/css" media="all" title="defaut.css" />
+</head>
+<body>
+<!-- Header -->
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+  </header>
+
+<!-- Content -->
+  <div id="corps">
+
+    {{ range .Data.Pages.ByTitle }}
+      {{ .Render "summary" }}
+    {{ end }} 
+
+  </div>
+
+<!-- Footer -->
+  <footer>
+    <p>Proudly powered by <a href="https://github.com/blankoworld/hugo-portal" title="Get hugo-portal source code">hugo-portal</a> made with <a href="http://gohugo.io/" title="Go to Hugo officiel homepage">Hugo {{ .Hugo.Version }}</a></p>
+  </footer>
+</body>
+</html>

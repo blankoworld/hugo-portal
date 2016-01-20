@@ -1,0 +1,7 @@
+<a class="cadre" href="{{ .Get "href" }}" title="{{ .Get "title" }}">
+  <span class="element">
+    {{ .Get "title" }} <br />
+    
+    <img src="{{ if .Get "src"}}{{ .Get "src" }}{{ else }}img/{{ .Page.Site.Params.default_img }}{{ end }}" alt="{{ .Get "title" }} icon" title="{{ .Get "title" }}" />
+  </span>
+</a>

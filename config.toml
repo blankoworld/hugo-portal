@@ -1,0 +1,8 @@
+baseurl = ""
+languageCode = "en"
+title = "My portal"
+destination = "porteail"
+
+[params]
+  style = "blue.css"
+  default_img = "generique.png"
