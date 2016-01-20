@@ -86,14 +86,14 @@ left: 2%;
 }
 
 /* CATEGORIES */
-#corps ul.ensemble_element {
+#corps ul {
 min-height: 10em;
 list-style-type: none;
 padding: 0 5px;
 text-align: center;
 }
 
-#corps ul.ensemble_element li {
+#corps ul li {
 display: inline-block;
 }
 
