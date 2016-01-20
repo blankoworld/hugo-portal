@@ -6,5 +6,5 @@ title = "Education"
 +++
 Education topic
 
-  * {{< button title="Seeks" href="http://www.seeks-project.info/" src="img/apps/nepomuk.png" >}}
-  * {{< button title="OOo4kids" href="http://wiki.ooo4kids.org" src="img/apps/okteta.png" >}}
+  * {{< button title="Seeks" href="http://www.seeks-project.info/" src="apps/nepomuk.png" >}}
+  * {{< button title="OOo4kids" href="http://wiki.ooo4kids.org" src="apps/okteta.png" >}}

@@ -6,6 +6,6 @@ title = "Example category"
 +++
 The description of my category
 
-  * {{< button title="Are you lost?" href="http://perdu.com" src="img/apps/preferences-system-session-services.png" >}}
-  * {{< button title="Exalead" href="http://exalead.fr" src="img/apps/preferences-web-browser-shortcuts.png" >}}
+  * {{< button title="Are you lost?" href="http://perdu.com" src="apps/preferences-system-session-services.png" >}}
+  * {{< button title="Exalead" href="http://exalead.fr" src="apps/preferences-web-browser-shortcuts.png" >}}
   * {{< button title="DuckDuck Go Search" href="http://ddg.gg" >}}
