@@ -1,7 +1,9 @@
-baseurl = ""
 languageCode = "en"
 title = "My portal"
-destination = "porteail"
+disableRSS = true
+disableSitemap = true
+buildDrafts = true
+uglyURLs = true
 
 [params]
   style = "blue.css"
