@@ -17,6 +17,9 @@
 <!-- Content -->
   <div id="corps">
 
+    <!-- Webpage introduction -->
+    {{ partial "introduction.html" }}
+
     {{ range .Data.Pages.ByTitle }}
       {{ .Render "summary" }}
     {{ end }} 

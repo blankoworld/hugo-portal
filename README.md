@@ -73,3 +73,9 @@ You need so to:
 Note 1: If you don't add the **src** tag, then a default picture will be used.
 
 Note 2: if you enter *devices/multimedia-player.png* as source picture, then it expects the presence of this file: *static/img/devices/multimedia-player.png*. So all pictures should be placed in **static/img** directory.
+
+# Introduction
+
+You can change/complete the web portal introduction in **layouts/partials/introduction.html** file.
+
+Pay attention to write HTML code (I don't find any other solution for that).
