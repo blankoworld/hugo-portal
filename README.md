@@ -6,6 +6,10 @@ hugo-portal is a substitution of [PorteAil](https://github.com/blankoworld/porte
 
 hugo-portal will creates a web portal as seen on [depotoi.re](http://depotoi.re/).
 
+# Screenshots
+
+![Web portal using hugo-portal](screenshot-01.png)
+
 # Requirements
 
 You need to [get Hugo](http://gohugo.io/overview/quickstart/) and understand a little bit how it works.
