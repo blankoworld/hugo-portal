@@ -4,7 +4,7 @@
 
 hugo-portal is a substitution of [PorteAil](https://github.com/blankoworld/porteail) by using [Hugo](http://gohugo.io/) as static website engine.
 
-hugo-portal will creates a web portal as seen on [depotoi.re](http://depotoi.re/).
+hugo-portal will creates a web portal as seen on screenshots section.
 
 # Screenshots
 
